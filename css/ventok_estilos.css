@@ -1,0 +1,73 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#cabecera {
+	background: #33BEFF;	
+	padding: 20px;
+	height: 70px;
+
+}
+
+#img_cabecera {
+	width: 187px;
+	height: 118px;	    
+}
+
+#menu {
+	background: #33BEFF;
+	padding: 5px 15px;
+}
+
+#menu li {
+	display: inline-block;
+	list-style: none;
+	width: 100px;	
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+	border: 3px solid #0F97D7;
+	border-radius:5px;	 
+	background-color: #0F97D7;
+	color: #FFFFFF;
+	box-shadow: rgb(150,150,150) 3px 3px 5px;
+
+}
+
+#menu ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    background-color: #33BEFF;    
+}
+#menu a:active{
+	color:#4CAF50
+}
+
+#menu li:hover {
+    background-color: #A0ABB9;
+    color: #1E59A4;
+}
+
+#portada {
+	opacity: 0.3;
+	width: 100%;	    
+}
+
+body {
+    background-color: #33BEFF;
+}
+
+div.polaroid {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+#pie {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+
