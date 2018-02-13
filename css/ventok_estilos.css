@@ -55,7 +55,8 @@
 }
 
 body {
-    background-color: #33BEFF;
+    /*background-color: #33BEFF;*/
+    background-color: #FFFFFF;
 }
 
 div.polaroid {
@@ -65,9 +66,22 @@ div.polaroid {
 }
 
 #pie {
+	background-color: #33BEFF;
 	clear: both;
 	text-align: center;
 	padding: 20px;
 	border-top: 2px solid #999999;
 }
 
+/* ---- particles.js container ---- */
+
+#particles-js{
+
+
+	background-image: url(portada.png);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	opacity: 0.6;
+	width: 100%;		
+}
