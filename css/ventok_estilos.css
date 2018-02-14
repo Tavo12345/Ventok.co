@@ -57,6 +57,15 @@
 body {
     /*background-color: #33BEFF;*/
     background-color: #FFFFFF;
+    font-family: "Verdana";
+	text-shadow: 1px 1px 1px #000000;
+    /*font-family: 'Lato', Helvetica, sans-serif !important;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+	overflow-x: hidden;
+	line-height: 25px;
+	*/
 }
 
 div.polaroid {
@@ -67,7 +76,7 @@ div.polaroid {
 
 #pie {
 	background-color: #33BEFF;
-	clear: both;
+	/*clear: both;*/
 	text-align: center;
 	padding: 20px;
 	border-top: 2px solid #999999;
@@ -82,6 +91,52 @@ div.polaroid {
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
-	opacity: 0.6;
+	/*opacity: 0.6;*/
 	width: 100%;		
+}
+
+
+
+#particleWrapper {
+    position: relative;
+    width: 100%; /* puedes cambiar este valor por lo que desea en px */
+    height: 100%; /* puedes cambiar este valor por lo que desea en px */
+}
+
+#contenido {
+  margin: 0;
+  padding: 0;
+  
+  /* Centra el texto tanto vertical como horizontalmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  /* Se asegura de que no hay eventos de puntero, por lo que cuando se pasa el texto el efecto sigue funcionando y no está bloqueado */
+  /*pointer-events: none;*/
+}
+
+button, input, select {
+  font-family : inherit;
+  font-size   : 100%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+textarea {
+  font-family : inherit;
+  font-size   : 100%;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  font-family : inherit;
+  font-size   : 100%;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  font-family: "Verdana";
+  color: #FFFFFF;
+  background: #2958D8;
 }
